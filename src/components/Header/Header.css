@@ -3,7 +3,7 @@
 	overflow-x: hidden;
 	background-color: #305c71;
 	text-align: center;
-    margin-bottom: 5%;
+	margin-bottom: 1%;
 }
 
 .navbar-container {
@@ -22,7 +22,7 @@
 }
 
 .navbar-title:hover {
-    animation: neonTwo 2.5s infinite;
+	animation: neonTwo 2.5s infinite;
 }
 
 @keyframes neonTwo {
@@ -49,18 +49,16 @@
 
 .navbar-link:hover {
 	background-color: #a14b40;
-	border-radius: 15px;
+	/* border-radius: 15px; */
 	color: #f3bc78;
 	padding: auto;
 }
 
-/* @media (max-width: 900px) {
-    .container {
-        flex-direction: row;
-    }
-} */
-
 @media (max-width: 767px) {
+	.navbar {
+		margin-bottom: 0;
+	}
+
 	.navbar-container {
 		flex-direction: row;
 		/* align-items: center; */

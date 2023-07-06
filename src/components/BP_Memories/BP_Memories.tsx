@@ -2,12 +2,9 @@ import './BP_Memories.css';
 import * as React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
 
-// interface BP_MemoriesProps {}
-
 const BP_Memories: React.FC = () => {
-	// const BP_Memories: React.FC<BP_MemoriesProps> = () => {
 	return (
-		<Container className="carousel-container">
+		<Container>
 			<Carousel>
 				<Carousel.Item>
 					<img
@@ -23,7 +20,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="/src/images/BP_2016/IMG_3166.jpeg"
+						src="/src/images/BP_2015/IMG_3685.jpeg"
 						alt="Burning Pig 2016"
 					/>
 
@@ -47,7 +44,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="/src/images/BP_2018/IMG_9305.jpeg"
+						src="/src/images/BP_2018/IMG_9307.jpeg"
 						alt="Burning Pig 2018"
 					/>
 
@@ -71,7 +68,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="/src/images/BP_2020/IMG_1406.jpeg"
+						src="/src/images/BP_2020/IMG_3690.jpeg"
 						alt="Burning Pig 2020"
 					/>
 
