@@ -12,7 +12,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="../../images/BP_2015/IMG_3685.jpeg"
+						src="/src/images/BP_2015/IMG_3685.jpeg"
 						alt="Burning Pig 2015"
 					/>
 					<Carousel.Caption>
@@ -23,7 +23,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Second slide&bg=282c34"
+						src="/src/images/BP_2016/IMG_3166.jpeg"
 						alt="Burning Pig 2016"
 					/>
 
@@ -35,7 +35,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2017/IMG_3686.jpeg"
 						alt="Burning Pig 2017"
 					/>
 
@@ -47,7 +47,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2018/IMG_9305.jpeg"
 						alt="Burning Pig 2018"
 					/>
 
@@ -59,7 +59,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2019/IMG_2794.jpeg"
 						alt="Burning Pig 2019"
 					/>
 
@@ -71,7 +71,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2020/IMG_1406.jpeg"
 						alt="Burning Pig 2020"
 					/>
 
@@ -83,7 +83,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2021/IMG_3692.jpeg"
 						alt="Burning Pig 2021"
 					/>
 
@@ -95,7 +95,7 @@ const BP_Memories: React.FC = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="holder.js/800x400?text=Third slide&bg=20232a"
+						src="/src/images/BP_2022/IMG_3688.jpeg"
 						alt="Burning Pig 2022"
 					/>
 

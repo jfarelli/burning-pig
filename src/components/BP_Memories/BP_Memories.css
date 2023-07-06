@@ -1,12 +1,7 @@
-/* .carousel-container {
-    background-color: #f3bc78;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.carousel-container {
     height: 60vh;
 }
 
 .carousel-text {
     color: whitesmoke
-} */
+}
