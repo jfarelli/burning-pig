@@ -1,17 +1,18 @@
-import './LandingPage.css'
+import './LandingPage.css';
 import * as React from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Row, Col } from 'react-bootstrap';
 
-interface LandingPageProps {}
+// interface LandingPageProps {}
 
-const LandingPage: React.FC<LandingPageProps> = () => {
+const LandingPage: React.FC = () => {
+	// const LandingPage: React.FC<LandingPageProps> = () => {
 	return (
-		<Container className='landing-container'>
-			<h1 className='bp-title'>BURNING PIG</h1>
-			<p className='bp-description'>
+		<Container className="landing-container">
+			<h1 className="bp-title">BURNING PIG</h1>
+			<p className="bp-description">
 				A shared experience built on adventure, community, and delicious pigs.
 			</p>
-			<Button className='bp-enter-button'>ENTER</Button>
+			<Button className="bp-enter-button">ENTER</Button>
 		</Container>
 	);
 };

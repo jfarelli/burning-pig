@@ -1,46 +1,49 @@
 .landing-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .bp-title {
-    color: #A14B40;
-    font-size: 5rem;
-    font-weight: 900;
-    animation: neon 5s infinite;
+	color: #305c71;
+	font-size: 5rem;
+	font-weight: 900;
+	animation: neon 5s infinite;
 }
 
 @keyframes neon {
-    0%, 39%, 41%, 61%, 100% {
-        text-shadow:
-        #E8E8E8 0 0 12px,
-        #F3BC78 0 0 24px,
-        #F3BC78 0 0 36px;
-    }
+	0%,
+	39%,
+	41%,
+	61%,
+	100% {
+		text-shadow: #e8e8e8 0 -5px 12px, #f3bc78 0 -10px 24px, #f3bc78 0 -15px 36px,
+			#f57c00 0 -20px 48px, #f57c00 0 -25px 60px, #ff0000 0 -30px 72px,
+			#ff0000 0 -40px 96px, #ff0000 0 -45px 108px;
+	}
 
-    40%, 60% {
-        text-shadow: none;
-    }
+	40%,
+	60% {
+		text-shadow: none;
+	}
 }
 
 .bp-description {
-    color: #A14B40;
-    font-size: 2rem;
-    text-shadow: 0 1px 3px #F3BC78;
+	color: #a14b40;
+	font-size: 2rem;
+	text-shadow: 0 1px 3px #f3bc78;
 }
 
 .bp-enter-button {
-    background-color: #305C71;
-    outline: 2px solid #F3BC78;
-    color: #F3BC78;
-    width: 20%;
-    font-size: 1.5rem;
+	background-color: #305c71;
+	outline: 2px solid #f3bc78;
+	color: #f3bc78;
+	width: 50%;
+	font-size: 1.5rem;
 }
 
 .bp-enter-button:hover {
-    background-color: #F3BC78;
-    outline: 2px solid #305C71;
-    color: #305C71
+	background-color: #f3bc78;
+	outline: 2px solid #305c71;
+	color: #305c71;
 }
-
