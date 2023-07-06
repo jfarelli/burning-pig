@@ -2,12 +2,13 @@ import { Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import Header from './components/Header/Header';
 import * as React from 'react';
+import BP_Memories from './components/BP_Memories/BP_Memories';
 
 const App: React.FC = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<LandingPage />} />
-			<Route path="/bp-main" element={<Header />} />
+			<Route path="/bp-memories" element={<><Header /><BP_Memories /></>} />
 		</Routes>
 	);
 };

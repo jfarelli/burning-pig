@@ -10,7 +10,8 @@
 }
 
 .bp-title {
-	color: #305c71;
+	color: #a14b40;
+    -webkit-text-stroke: 1px #f3bc78;
 	font-size: 5rem;
 	font-weight: 900;
 	animation: neon 3.5s infinite;
@@ -34,13 +35,15 @@
 }
 
 .bp-description {
-	color: #a14b40;
+	color: #305c71;
+    /* -webkit-text-stroke: .5px #f3bc78; */
 	font-size: 2rem;
+    font-weight: 900;
 	text-shadow: 0 1px 3px #f3bc78;
 }
 
 .bp-enter-button button {
-	background-color: #305c71;
+	background-color: #a14b40;
 	outline: 2px solid #f3bc78;
 	color: #f3bc78;
 	font-size: 1.5rem;
@@ -49,6 +52,6 @@
 
 .bp-enter-button button:hover {
 	background-color: #f3bc78;
-	outline: 2px solid #305c71;
-	color: #305c71;
+	outline: 2px solid #a14b40;
+	color: #a14b40;
 }

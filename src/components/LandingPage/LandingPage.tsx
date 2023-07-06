@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
 			<p className="bp-description">
 				A shared experience built on adventure, community, and delicious pigs.
 			</p>
-			<Link to="/bp-main" style={{ textDecoration: 'none', color: 'inherit' }}>
+			<Link to="/bp-memories" style={{ textDecoration: 'none', color: 'inherit' }}>
 				<div className="bp-enter-button"><Button>ENTER</Button></div>
 			</Link>
 		</Container>
