@@ -1,0 +1,103 @@
+.navbar {
+	display: flex;
+	overflow-x: hidden;
+	background-color: #305c71;
+	text-align: center;
+}
+
+.navbar-container {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.navbar-title {
+	font-size: 4rem;
+	font-weight: 900;
+	padding: 0;
+	color: #f3bc78;
+}
+
+.navbar-title:hover {
+    animation: neonTwo 2.5s infinite;
+}
+
+@keyframes neonTwo {
+	0%,
+	39%,
+	41%,
+	61%,
+	100% {
+		text-shadow: #ff0000 0 -45px 54px, #ff0000 0 -40px 48px,
+			#ff0000 0 -30px 36px, #f57c00 0 -25px 30px, #f57c00 0 -20px 24px,
+			#f3bc78 0 -15px 18px, #f3bc78 0 -10px 12px, #e8e8e8 0 -5px 6px;
+	}
+
+	40%,
+	60% {
+		text-shadow: none;
+	}
+}
+
+.navbar-link {
+	color: #f3bc78;
+	font-size: 1.25rem;
+}
+
+.navbar-link:hover {
+	background-color: #a14b40;
+	border-radius: 15px;
+	color: #f3bc78;
+	padding: auto;
+}
+
+/* @media (max-width: 900px) {
+    .container {
+        flex-direction: row;
+    }
+} */
+
+@media (max-width: 767px) {
+	.navbar-container {
+		flex-direction: row;
+		/* align-items: center; */
+		/* justify-content: center; */
+	}
+
+	.navbar-title {
+		font-size: 1.5rem;
+	}
+
+	.navbar-link {
+		font-size: 1rem;
+	}
+
+	@keyframes neonTwo {
+		0%,
+		39%,
+		41%,
+		61%,
+		100% {
+			text-shadow: #ff0000 0 -25px 108px, #ff0000 0 -20px 96px,
+				#ff0000 0 -10px 72px, #f57c00 0 -20px 48px, #f3bc78 0 -10px 24px,
+				#e8e8e8 0 -5px 12px;
+		}
+
+		40%,
+		60% {
+			text-shadow: none;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.navbar-container {
+		flex-direction: row;
+	}
+
+	.navbar-link {
+		font-size: 0.8rem;
+	}
+}

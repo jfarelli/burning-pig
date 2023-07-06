@@ -1,6 +1,7 @@
 import './LandingPage.css';
 import * as React from 'react';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // interface LandingPageProps {}
 
@@ -12,7 +13,9 @@ const LandingPage: React.FC = () => {
 			<p className="bp-description">
 				A shared experience built on adventure, community, and delicious pigs.
 			</p>
-			<Button className="bp-enter-button">ENTER</Button>
+			<Link to="/bp-main" style={{ textDecoration: 'none', color: 'inherit' }}>
+				<div className="bp-enter-button"><Button>ENTER</Button></div>
+			</Link>
 		</Container>
 	);
 };
