@@ -1,0 +1,46 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bp-title {
+    color: #A14B40;
+    font-size: 5rem;
+    font-weight: 900;
+    animation: neon 5s infinite;
+}
+
+@keyframes neon {
+    0%, 39%, 41%, 61%, 100% {
+        text-shadow:
+        #E8E8E8 0 0 12px,
+        #F3BC78 0 0 24px,
+        #F3BC78 0 0 36px;
+    }
+
+    40%, 60% {
+        text-shadow: none;
+    }
+}
+
+.bp-description {
+    color: #A14B40;
+    font-size: 2rem;
+    text-shadow: 0 1px 3px #F3BC78;
+}
+
+.bp-enter-button {
+    background-color: #305C71;
+    outline: 2px solid #F3BC78;
+    color: #F3BC78;
+    width: 20%;
+    font-size: 1.5rem;
+}
+
+.bp-enter-button:hover {
+    background-color: #F3BC78;
+    outline: 2px solid #305C71;
+    color: #305C71
+}
+
